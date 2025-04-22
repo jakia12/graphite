@@ -9,7 +9,7 @@ const About = () => {
             <img
               src="/images/gr1.svg"
               alt="Image 1"
-              className="w-[90px] h-[90px] object-cover rounded-lg mx-auto lg:mx-none"
+              className="w-[90px] h-[90px] object-cover rounded-lg mx-auto lg:mx-0"
             />
             <h3 className="mt-[28px] text-[24px] leading-[33px] text-[#ECF2F5] font-sans">
               Design freedom
@@ -25,7 +25,7 @@ const About = () => {
             <img
               src="/images/gr2.svg"
               alt="Image 2"
-              className="w-[90px] h-[90px] object-cover rounded-lg mx-auto lg:mx-none"
+              className="w-[90px] h-[90px] object-cover rounded-lg mx-auto lg:mx-0"
             />
             <h3 className="mt-[28px] text-[24px] leading-[33px] text-[#ECF2F5] font-sans">
               Familiar tools
@@ -41,7 +41,7 @@ const About = () => {
             <img
               src="/images/gr3.svg"
               alt="Image 3"
-              className="w-[90px] h-[90px] object-cover rounded-lg mx-auto lg:mx-none"
+              className="w-[90px] h-[90px] object-cover rounded-lg mx-auto lg:mx-0"
             />
             <h3 className="mt-[28px] text-[24px] leading-[33px] text-[#ECF2F5] font-sans">
               Instant publishing
