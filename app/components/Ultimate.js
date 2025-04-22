@@ -1,6 +1,6 @@
 const Ultimate = () => {
   return (
-    <section className="bg-[#ECF2F5] py-[120px]">
+    <section className="bg-[#ECF2F5] lg:py-[120px] py-[90px]">
       <div className="container w-full max-w-[88%] mx-auto">
         <div className="lg:mb-[100px] mb-[50px]">
           <p className="col-span-6 text-[15px] leading-[21px] font-semibold font-sans uppercase tracking-[0.12em] text-[#3D5EFF] mb-[25px]">
@@ -60,11 +60,11 @@ const Ultimate = () => {
           </div>
 
           {/* Right Column - 60% */}
-          <div className="md:w-[50%] w-full">
+          <div className="md:w-[50%] w-full mt-[30px]">
             <div className="w-full relative">
               <div className="">
                 <video
-                  className="w-full h-[580px] object-cover rounded-[10px]"
+                  className="w-full lg:h-[580px] object-cover rounded-[10px] h-auto"
                   autoPlay
                   loop
                   muted

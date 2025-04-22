@@ -1,15 +1,15 @@
 const About = () => {
   return (
     <section className="bg-[#09080F] ">
-      <div className="container w-full max-w-[90%] mx-auto px-[25px] py-[110px]">
+      <div className="container w-full max-w-[90%] mx-auto px-[25px] lg:py-[110px] py-[80px]">
         {/* first grid item */}
-        <div className="lg:flex gap-[60px] ">
+        <div className="lg:flex gap-x-[60px] ">
           {/* Column 1 */}
-          <div className="text-left space-y-3">
+          <div className="lg:text-left text-center space-y-3 mb-[25px]">
             <img
               src="/images/gr1.svg"
               alt="Image 1"
-              className="w-[90px] h-[90px] object-cover rounded-lg"
+              className="w-[90px] h-[90px] object-cover rounded-lg mx-auto lg:mx-none"
             />
             <h3 className="mt-[28px] text-[24px] leading-[33px] text-[#ECF2F5] font-sans">
               Design freedom
@@ -21,11 +21,11 @@ const About = () => {
           </div>
 
           {/* Column 2 */}
-          <div className="text-left space-y-3">
+          <div className="lg:text-left text-center space-y-3 mb-[25px]">
             <img
               src="/images/gr2.svg"
               alt="Image 2"
-              className="w-[90px] h-[90px] object-cover rounded-lg"
+              className="w-[90px] h-[90px] object-cover rounded-lg mx-auto lg:mx-none"
             />
             <h3 className="mt-[28px] text-[24px] leading-[33px] text-[#ECF2F5] font-sans">
               Familiar tools
@@ -37,11 +37,11 @@ const About = () => {
           </div>
 
           {/* Column 3 */}
-          <div className="text-left space-y-3">
+          <div className="lg:text-left text-center space-y-3 mb-[25px]">
             <img
               src="/images/gr3.svg"
               alt="Image 3"
-              className="w-[90px] h-[90px] object-cover rounded-lg"
+              className="w-[90px] h-[90px] object-cover rounded-lg mx-auto lg:mx-none"
             />
             <h3 className="mt-[28px] text-[24px] leading-[33px] text-[#ECF2F5] font-sans">
               Instant publishing
@@ -56,7 +56,7 @@ const About = () => {
         <div className="lg:flex items-center gap-[35px] pt-[110px] ">
           <div className="w-full lg:w-[32%]  ">
             <div>
-              <h2 className="text-[29px] leading-[39px] text-[#ECF2F5] ">
+              <h2 className="lg:text-[29px] text-[25px] leading-[39px] text-[#ECF2F5] text-center lg:text-left ">
                 Only 3 steps standing between you and your best web-page yet
               </h2>
             </div>
@@ -68,12 +68,12 @@ const About = () => {
               {/* Column 2 */}
               <div>
                 <div className="flex items-center gap-2 mb-[28px]">
-                  <div className="text-[#ECF2F5] text-base font-semibold text-[29px] leading-[39px]">
+                  <div className="text-[#ECF2F5] text-base font-semibold text-[29px] leading-[39px]  mx-auto lg:mx-none">
                     1
                   </div>
-                  <div className="w-[80%] h-px bg-[#4a5060]"></div>
+                  <div className="w-[80%] h-px bg-[#4a5060] hidden lg:block"></div>
                 </div>
-                <p className="mt-3 text-[20px] text-[#B5C0CC] mr-[60px] leading-[27px]">
+                <p className="mt-3 text-[20px] text-[#B5C0CC] lg:mr-[60px] leading-[27px] text-center lg:text-left">
                   Pick a template or start from scratch
                 </p>
               </div>
@@ -81,12 +81,12 @@ const About = () => {
               {/* Column 3 */}
               <div>
                 <div className="flex items-center gap-2">
-                  <div className="text-[#ECF2F5] text-base font-semibold text-[29px] leading-[39px]">
+                  <div className="text-[#ECF2F5] text-base font-semibold text-[29px] leading-[39px] mx-auto lg:mx-none">
                     2
                   </div>
-                  <div className="w-[80%] h-px bg-[#4a5060]"></div>
+                  <div className="w-[80%] h-px bg-[#4a5060] hidden lg:block"></div>
                 </div>
-                <p className="mt-3 text-[20px] text-[#B5C0CC] mr-[60px] leading-[27px]">
+                <p className="mt-3 text-[20px] text-[#B5C0CC] lg:mr-[60px] leading-[27px] text-center lg:text-left">
                   Use familiar tools to design a web-page
                 </p>
               </div>
@@ -94,12 +94,12 @@ const About = () => {
               {/* Column 4 */}
               <div>
                 <div className="flex items-center gap-2">
-                  <div className="text-[#ECF2F5] text-base font-semibold text-[29px] leading-[39px]">
+                  <div className="text-[#ECF2F5] text-base font-semibold text-[29px] leading-[39px] mx-auto lg:mx-none">
                     3
                   </div>
-                  <div className="w-[80%] h-px bg-[#4a5060]"></div>
+                  <div className="w-[80%] h-px bg-[#4a5060] hidden lg:block"></div>
                 </div>
-                <p className="mt-3 text-[20px] text-[#B5C0CC] mr-[60px] leading-[27px]">
+                <p className="mt-3 text-[20px] text-[#B5C0CC] lg:mr-[60px] leading-[27px] text-center lg:text-left">
                   Publish your web-page in one click
                 </p>
               </div>
@@ -107,8 +107,9 @@ const About = () => {
           </div>
         </div>
 
-        <button
-          className="inline-flex items-center justify-center 
+        <div className="text-center lg:text-left">
+          <button
+            className="inline-flex items-center justify-center 
              h-[42px] px-[23px] 
              text-[#191925] text-[17px] leading-[24px] 
              font-bold font-sans 
@@ -117,9 +118,10 @@ const About = () => {
              bg-[#F5BA31] 
              transition-colors duration-300 ease-out 
              focus:outline-none cursor-pointer mt-[80px]"
-        >
-          Get Started
-        </button>
+          >
+            Get Started
+          </button>
+        </div>
       </div>
     </section>
   );
