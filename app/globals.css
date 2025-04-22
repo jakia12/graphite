@@ -24,7 +24,7 @@ html {
   overflow-x: hidden !important;
 }
 
-.bg_custom {
+/* .bg_custom {
   background-image: linear-gradient(
     to right top,
     #1a123e,
@@ -40,4 +40,4 @@ html {
     #32112b,
     #36112c
   );
-}
+} */

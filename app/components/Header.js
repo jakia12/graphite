@@ -7,7 +7,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="bg-[#36112C] shadow-md px-6 py-4">
+    <div className="bg-transparent shadow-md px-6 py-4">
       <div className="lg:px-[90px] px-[40px] mx-auto flex items-center justify-between relative">
         {/* Logo */}
         <Link href="/" className="text-xl font-bold text-white">
@@ -15,14 +15,14 @@ export default function Navbar() {
         </Link>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex items-center space-x-6">
-          <Link href="#" className="text-white hover:text-blue-600">
+        <div className="hidden md:flex items-center gap-16">
+          <Link href="#" className="text-white hover:text-blue-600 text-[17px]">
             Features
           </Link>
-          <Link href="#" className="text-white hover:text-blue-600">
+          <Link href="#" className="text-white hover:text-blue-600 text-[17px]">
             Help
           </Link>
-          <Link href="#" className="text-white hover:text-blue-600">
+          <Link href="#" className="text-white hover:text-blue-600 text-[17px]">
             Login
           </Link>
           <button
