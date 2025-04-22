@@ -1,32 +1,32 @@
 export default function Hero() {
   return (
     <section className="bg-[url('/images/bg.png')] bg-cover bg-center">
-      <div className="bg_custom mt-[-100px] pt-[154px]">
+      <div className="bg_custom mt-[-100px] pt-[154px] pb-[50px] lg:pb-[0]">
         <div className="flex flex-col md:flex-row w-full min-h-screen items-center pt-[30px]  px-[47px] lg:px-[0]">
           {/* Left Column - 40% */}
-          <div className="md:w-[50%] w-full flex flex-col justify-center items-start gap-4 lg:pl-[93px] mb-[40px]">
-            <h1 className="lg:text-[17px] text-[14px] font-bold uppercase tracking-[0.12em] font-regular text-transparent bg-clip-text bg-gradient-to-r from-[#d73e87] via-[#239eb9] to-[#774dff]">
+          <div className="md:w-[50%] w-full flex flex-col justify-center items-start gap-4 lg:pl-[93px] mb-[32px]">
+            <h1 className="lg:text-[17px] text-[14px] font-bold uppercase tracking-[0.12em] font-regular text-transparent bg-clip-text bg-gradient-to-r from-[#d73e87] via-[#239eb9] to-[#774dff] lg:text-left text-center">
               Responsive. Pixel-Perfect. Code-Free.
             </h1>
-            <h1 className="text-white font-bold lg:text-[68px] text-[48px] leading-[72px] mt-[30px] w-full lg:w-[550px]">
+            <h1 className="text-white font-bold lg:text-[68px] text-[38px] lg:leading-[72px] mt-[28px] w-full lg:w-[550px] lg:text-left text-center">
               Make web design feel like home
             </h1>
-            <p className="text-[20px] text-[#B5C0CC] mt-[13px] w-full lg:w-[650px]">
+            <p className="lg:text-[20px] text-[18px] text-[#B5C0CC] mt-[13px] w-full lg:w-[650px] lg:text-left text-center">
               Use familiar graphic editor tools to create pixel-perfect Web
               Pages, and not just mockups. Focus on the creative part, and we
               will take care of the rest.
             </p>
-            <div className="flex gap-4 mt-4">
+            <div className="lg:flex gap-4 mt-4 text-center lg:text-none">
               <button
-                className="inline-flex items-center justify-center 
-             h-[42px] px-[23px] 
+                className="
+             py-[6px] lg:px-[23px] px-[27px] 
              text-[#191925] text-[17px] leading-[24px] 
-             font-bold font-sans 
+             font-semibold 
              border-2 border-transparent 
              rounded-full 
              bg-[#F5BA31] 
-             transition-colors duration-300 ease-out 
-             focus:outline-none cursor-pointer"
+             mb-[24px]
+           "
               >
                 Try For Free
               </button>
