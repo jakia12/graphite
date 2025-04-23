@@ -8,7 +8,7 @@ export default function Navbar() {
 
   return (
     <div className="bg-transparent shadow-md px-6 py-4">
-      <div className="lg:px-[90px] px-[40px] mx-auto flex items-center justify-between relative">
+      <div className="lg:px-[90px] px-[20px] mx-auto flex items-center justify-between relative">
         {/* Logo */}
         <Link href="/" className="text-xl font-bold text-white">
           Graphite

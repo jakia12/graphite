@@ -1,3 +1,4 @@
+import Features from "./components/Features";
 import Hero from "./components/Hero";
 import Ultimate from "./components/Ultimate";
 
@@ -7,6 +8,7 @@ export default function Home() {
       <Hero />
 
       <Ultimate />
+      <Features />
     </>
   );
 }

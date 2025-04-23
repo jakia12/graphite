@@ -2,18 +2,18 @@ const Ultimate = () => {
   return (
     <section className="bg-[#ECF2F5] lg:py-[120px] py-[90px]">
       <div className="container w-full max-w-[88%] mx-auto">
-        <div className="lg:mb-[100px] mb-[50px]">
+        <div className="lg:mb-[100px] mb-[10px]">
           <p className="col-span-6 text-[15px] leading-[21px] font-semibold font-sans uppercase tracking-[0.12em] text-[#3D5EFF] mb-[25px]">
             TOP FEATURE
           </p>
 
-          <h2 className="font-bold text-[44px] lg:text-[84px] lg:leading-[90px] w-full lg:w-[1300px] text-[#191925]">
+          <h2 className="font-bold text-[45px] lg:text-[84px] lg:leading-[90px] w-full lg:w-[1300px] text-[#191925]">
             The ultimate web design experience
           </h2>
         </div>
         <div className="lg:flex items-center ">
           <div className="md:w-[50%] w-full flex flex-col justify-center items-start gap-4  ">
-            <h1 className="text-[#191925] font-bold text-[48px] leading-[72px] mt-[30px] w-full lg:w-[550px]">
+            <h1 className="text-[#191925] font-bold lg:text-[48px] text-[36px] leading-[72px] mt-[30px] w-full lg:w-[550px]">
               Hybrid grid
             </h1>
             <p className="text-[20px] text-[#3C3F4F] mt-[13px] w-full lg:w-[650px]">
@@ -23,19 +23,19 @@ const Ultimate = () => {
             </p>
 
             <div className="grid lg:grid-cols-2 grid-cols-1 gap-[32px] my-[30px]">
-              <div className="w-[240px] rounded-[6px] shadow-[0px_14px_36px_rgba(0,0,0,0.03),_0px_30px_60px_rgba(0,0,0,0.02)] p-[15px_15px_12px] bg-white py-[18px]">
+              <div className="w-[240px] rounded-[6px] lg:shadow-[0px_14px_36px_rgba(0,0,0,0.03),_0px_30px_60px_rgba(0,0,0,0.02)] p-[15px_15px_12px] lg:bg-white py-[9px]">
                 <img src="/images/ul.svg" alt="" className="w-[25px]" />
                 <p className="mt-[10px] text-[13px] leading-[18px] text-[#3C3F4F] font-semibold font-sans">
                   Fully customizable
                 </p>
               </div>
-              <div className="w-[240px] rounded-[6px] shadow-[0px_14px_36px_rgba(0,0,0,0.03),_0px_30px_60px_rgba(0,0,0,0.02)] p-[15px_15px_12px] bg-white py-[18px]">
+              <div className="w-[240px] rounded-[6px] lg:shadow-[0px_14px_36px_rgba(0,0,0,0.03),_0px_30px_60px_rgba(0,0,0,0.02)] p-[15px_15px_12px] lg:bg-white py-[9px]">
                 <img src="/images/ul2.svg" alt="" className="w-[25px]" />
                 <p className="mt-[10px] text-[13px] leading-[18px] text-[#3C3F4F] font-semibold font-sans">
                   Precise and consistent
                 </p>
               </div>
-              <div className="w-[240px] rounded-[6px] shadow-[0px_14px_36px_rgba(0,0,0,0.03),_0px_30px_60px_rgba(0,0,0,0.02)] p-[15px_15px_12px] bg-white py-[18px]">
+              <div className="w-[240px] rounded-[6px] lg:shadow-[0px_14px_36px_rgba(0,0,0,0.03),_0px_30px_60px_rgba(0,0,0,0.02)] p-[15px_15px_12px] lg:bg-white py-[9px]">
                 <img src="/images/ul3.svg" alt="" className="w-[25px]" />
                 <p className="mt-[10px] text-[13px] leading-[18px] text-[#3C3F4F] font-semibold font-sans">
                   Responsive by design
