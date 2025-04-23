@@ -1,7 +1,7 @@
 const Ultimate = () => {
   return (
     <section className="bg-[#ECF2F5] lg:py-[120px] py-[90px]">
-      <div className="container w-full max-w-[88%] mx-auto">
+      <div className=" container  mx-auto  ">
         <div className="lg:mb-[100px] mb-[10px]">
           <p className="col-span-6 text-[15px] leading-[21px] font-semibold font-sans uppercase tracking-[0.12em] text-[#3D5EFF] mb-[25px]">
             TOP FEATURE

@@ -1,7 +1,7 @@
 const Features = () => {
   return (
     <section className="bg-[#020203] lg:py-[124px] py-[80px]">
-      <div className="container w-full max-w-[88%] mx-auto">
+      <div className="container  mx-auto">
         <div className="lg:flex items-center ">
           <div className="md:w-[50%] w-full flex flex-col justify-center items-start gap-4  ">
             <p className="col-span-6 text-[15px] leading-[21px] font-semibold font-sans uppercase tracking-[0.12em] mb-[10px] text-[#3D5EFF] lg:mb-[25px]">

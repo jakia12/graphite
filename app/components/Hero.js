@@ -78,7 +78,7 @@ export default function Hero() {
         </div>
       </div>
       <div className="bg-[#00000099] ">
-        <div className="container w-full max-w-[90%] mx-auto px-[25px] lg:py-[110px] py-[80px]">
+        <div className="container  mx-auto px-[25px] lg:py-[110px] py-[80px]">
           {/* first grid item */}
           <div className="lg:flex gap-x-[60px] ">
             {/* Column 1 */}
