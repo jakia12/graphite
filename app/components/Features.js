@@ -4,7 +4,7 @@ const Features = () => {
       <div className="container w-full max-w-[88%] mx-auto">
         <div className="lg:flex items-center ">
           <div className="md:w-[50%] w-full flex flex-col justify-center items-start gap-4  ">
-            <p className="col-span-6 text-[15px] leading-[21px] font-semibold font-sans uppercase tracking-[0.12em] text-[#3D5EFF] mb-[25px]">
+            <p className="col-span-6 text-[15px] leading-[21px] font-semibold font-sans uppercase tracking-[0.12em] mb-[10px] text-[#3D5EFF] lg:mb-[25px]">
               FEATURES
             </p>
             <h1 className="text-[#b5c0cc] font-bold lg:text-[68px] text-[36px] leading-[54px] mt-[30px] w-full lg:w-[550px]">
