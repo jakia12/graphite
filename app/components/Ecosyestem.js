@@ -1,6 +1,6 @@
 const Ecosyestem = () => {
   return (
-    <section className="bg-[url('/images/bg3.webp')] bg-cover bg-center lg:py-[124px] py-[80px]">
+    <section className="bg-[url('/images/bg3.webp')] bg-cover bg-center lg:py-[124px] pt-[54px] pb-[70px]">
       <div className="max-w-[90%]  mx-auto ">
         <div className="lg:flex items-center ">
           <div className="md:w-[40%] w-full flex flex-col justify-center items-start gap-4  ">

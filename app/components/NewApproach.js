@@ -6,7 +6,7 @@ const NewApproach = () => {
         <h1 className="text-3xl md:text-5xl font-extrabold mb-4">
           Try an entirely new approach
         </h1>
-        <p className="text-lg md:text-xl text-[#bfc8d6] mb-8">
+        <p className="text-lg md:text-xl text-[#bfc8d6] mb-8 lg:px-0 px-[33px]">
           to site-building and create your first website now
         </p>
         <button className="bg-yellow-400 hover:bg-yellow-500 text-black font-semibold px-6 py-2 rounded-full transition duration-300">
