@@ -1,7 +1,7 @@
 export default function Hero() {
   return (
     <section className="bg-[url('/images/bg.png')] bg-cover bg-center">
-      <div className="bg_custom mt-[-100px] pt-[154px] pb-[50px] lg:pb-[0]">
+      <div className="bg_custom mt-[-100px] pt-[154px] pb-[50px] lg:pb-[0] 2xl:container">
         <div className="flex flex-col md:flex-row w-full min-h-screen items-center pt-[30px]  px-[47px] lg:px-[0]">
           {/* Left Column - 40% */}
           <div className="md:w-[50%] w-full flex flex-col justify-center items-start gap-4 lg:pl-[93px] mb-[32px]">
